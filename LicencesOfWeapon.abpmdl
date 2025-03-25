@@ -1,0 +1,117 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.LeptonXTheme": {
+      "version": "4.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.TextTemplateManagement": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.LanguageManagement": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict.Pro": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.Gdpr": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.AuditLogging.Pro": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Saas": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity.Pro": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.Account.Pro": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.SettingManagement": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.PermissionManagement": {
+      "version": "9.1.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.FeatureManagement": {
+      "version": "9.1.0",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "LicencesOfWeapon.Application": {
+      "path": "src/LicencesOfWeapon.Application/LicencesOfWeapon.Application.abppkg",
+      "folder": "src"
+    },
+    "LicencesOfWeapon.Application.Tests": {
+      "path": "test/LicencesOfWeapon.Application.Tests/LicencesOfWeapon.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "LicencesOfWeapon.Domain.Shared": {
+      "path": "src/LicencesOfWeapon.Domain.Shared/LicencesOfWeapon.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "LicencesOfWeapon.Application.Contracts": {
+      "path": "src/LicencesOfWeapon.Application.Contracts/LicencesOfWeapon.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "LicencesOfWeapon.HttpApi": {
+      "path": "src/LicencesOfWeapon.HttpApi/LicencesOfWeapon.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "LicencesOfWeapon.HttpApi.Client": {
+      "path": "src/LicencesOfWeapon.HttpApi.Client/LicencesOfWeapon.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "LicencesOfWeapon.EntityFrameworkCore.Tests": {
+      "path": "test/LicencesOfWeapon.EntityFrameworkCore.Tests/LicencesOfWeapon.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "LicencesOfWeapon.EntityFrameworkCore": {
+      "path": "src/LicencesOfWeapon.EntityFrameworkCore/LicencesOfWeapon.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "LicencesOfWeapon.TestBase": {
+      "path": "test/LicencesOfWeapon.TestBase/LicencesOfWeapon.TestBase.abppkg",
+      "folder": "test"
+    },
+    "LicencesOfWeapon.Domain.Tests": {
+      "path": "test/LicencesOfWeapon.Domain.Tests/LicencesOfWeapon.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "LicencesOfWeapon.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/LicencesOfWeapon.HttpApi.Client.ConsoleTestApp/LicencesOfWeapon.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "LicencesOfWeapon.DbMigrator": {
+      "path": "src/LicencesOfWeapon.DbMigrator/LicencesOfWeapon.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "LicencesOfWeapon.HttpApi.Host": {
+      "path": "src/LicencesOfWeapon.HttpApi.Host/LicencesOfWeapon.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "LicencesOfWeapon.Domain": {
+      "path": "src/LicencesOfWeapon.Domain/LicencesOfWeapon.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}
